@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8c1e5e57-2265-4def-b052-797021ab8011" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P1.html" beforeDir="false" afterPath="$PROJECT_DIR$/P1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +52,7 @@
     &quot;JavaScript Debug.P1.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/josef/OneDrive/Escritorio/Web&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -79,6 +82,10 @@
       <workItem from="1723596241705" duration="5171000" />
       <workItem from="1723640767916" duration="29000" />
       <workItem from="1723666816891" duration="17000" />
+      <workItem from="1723679057184" duration="833000" />
+      <workItem from="1723783772021" duration="61000" />
+      <workItem from="1723817526576" duration="894000" />
+      <workItem from="1723818705234" duration="415000" />
     </task>
     <servers />
   </component>
