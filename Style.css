@@ -1,3 +1,13 @@
+body {
+    background-color: #fff5ec;
+}
+
 h1 {
-    font-family: "Dubai Light", monospace;
+    color: black;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
