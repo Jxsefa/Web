@@ -6,8 +6,8 @@ h1 {
     color: black;
     text-align: center;
 }
-a{
-    color: black;
+.enlace{
+    text-align: center;
     text-decoration: none;
-    font-weight: bold;
+
 }

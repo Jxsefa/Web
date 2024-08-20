@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c1e5e57-2265-4def-b052-797021ab8011" name="Changes" comment="" />
+    <list default="true" id="8c1e5e57-2265-4def-b052-797021ab8011" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Principal/Principal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imagenes/Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu/Menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/Menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/JvSc.js" beforeDir="false" afterPath="$PROJECT_DIR$/Menu/Menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/Principal.html" beforeDir="false" afterPath="$PROJECT_DIR$/Principal/Principal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Principal/Principal.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Menu.html.executor": "Run",
     "JavaScript Debug.P1.html.executor": "Run",
     "JavaScript Debug.Principal.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -87,6 +96,8 @@
       <workItem from="1723922215345" duration="114000" />
       <workItem from="1723998399795" duration="2106000" />
       <workItem from="1724038124381" duration="1617000" />
+      <workItem from="1724110205960" duration="1743000" />
+      <workItem from="1724121707672" duration="1787000" />
     </task>
     <servers />
   </component>
