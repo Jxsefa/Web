@@ -29,3 +29,6 @@ nav a {
 nav ul li a:hover {
     background-color: #f9f1eb;
 }
+.btn {
+    float: right;
+}
