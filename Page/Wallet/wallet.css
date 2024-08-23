@@ -115,3 +115,10 @@ p,h1,h2,h3,a,input{
     color: aqua;
 }
 
+.card:hover .detras {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+.card:hover .frente {
+    transform: perspective(600px) rotateY(180deg);
+}
