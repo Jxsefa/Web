@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="wallet.css">
-    <title>TomatoCard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="wallet.css">
+  <title>TomatoCard</title>
 </head>
 <body>
+
     <div class="top-box">
-
-        <h1> Tus tarjetas </h1>
-        <p> Agregar </p>
-        <input type="button" value="+" class="agregar-tarjeta">
-
+      <h1>Tus tarjetas</h1>
+      <p>Agregar nueva tarjeta</p>
+      <input type="button" value="+" class="agregar-tarjeta">
     </div>
 
     <div class="card">
+      <img src="https://img.freepik.com/free-vector/hand-drawn-ice-cream-blackboard-background_23-2148983000.jpg?w=996&t=st=1724186966~exp=1724187566~hmac=e9dfb1247b31980bbd3ab768589eb2a1771558b3e1b258c29bb50f22b6bd8ce7" alt="">
+      <div class="card-front">
+        <h1 class="card-title">Master Chief</h1>
+        <p class="card-sub-title">Nombre de Usuario</p>
+      </div>
 
-        <div class="face detras">
-            <h1 class="numero"> 4253 0000 0000 0000 </h1>
-            <h3>saldo disponible:  40.000</h3>
-            <div class="link">
-                <a href="#"> Recargar </a>
-            </div>
-        </div>
-        <div class="face frente">
-            <img src="https://img.freepik.com/free-vector/hand-drawn-ice-cream-blackboard-background_23-2148983000.jpg?w=996&t=st=1724186966~exp=1724187566~hmac=e9dfb1247b31980bbd3ab768589eb2a1771558b3e1b258c29bb50f22b6bd8ce7" alt="">
-            <h1>Master ChefCard</h1>
-            <h2>Nombre apellido [Usuario]</h2>
-        </div>
-        
-
+      <div class="card-body">
+        <p class="card-info">5689 4452 1557 6546</p>
+        <h3>Saldo disponible: 40.000</h3>
+        <button class="card-btn"><a href="#FormularioRecarga#">+ RECARGAR</a></button>
+        <h2> CVV </h2>
+      </div>
     </div>
+
 </body>
 </html>

@@ -1,31 +1,53 @@
-body {
-    background: #fff5ec;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+/* -- FUENTES -- */
+
+.share-tech-mono-regular {
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 
-p,h1,h2,h3,a,input{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+.vt323-regular {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
+
+.libre-barcode-39-text-regular {
+    font-family: "Libre Barcode 39 Text", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* -- HTML -- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #ECE4D8;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+/* -- Barra Superior -- */
 
 .top-box {
     float: left;
-    width: 90%;
-    padding: 5%;
+    width: 100%;
+    padding: 30px;
 }
 
 .top-box h1 {
     float: left;
-    font-size: 22px;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 30px;
     font-weight: 500;
-}
-
-.top-box p {
-    float: right;
-    margin: 6px 10px;
-    font-weight: 300;
 }
 
 .agregar-tarjeta {
@@ -34,91 +56,130 @@ p,h1,h2,h3,a,input{
     height: 30px;
     border: unset;
     border-radius: 7px;
+    background: #52683F;
+    color: #fff;
     box-shadow: 0 0 20px 0 rgba(73, 92, 67, .14);
     text-align: center;
     font-size: 18px;
     font-weight: 300;
 }
 
+.top-box p {
+    float: right;
+    margin: 6px 10px;
+    font-weight: 300;
+}
+
+/* -- Tarjetas -- */
+
 .card {
-    position: relative;
-    float: left;
-    padding: 2%;
+    margin: 10px 32px;
     width: 480px;
-    height: 260px;
-}
-
-.card .face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
+    height: 320px;
+    border-radius: 20px;
     overflow: hidden;
-    transition: .5s;
+    border: 4px solid #261816;
+    position: relative;
+    display: flex;
 }
 
-.card .frente {
-    transform: perspective(600px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000;
-}
-
-.card .frente img {
-    position: absolute;
+.card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 15px;
 }
 
-.card .frente h1 {
-    position: absolute;
-    margin-left: 15px;
-    margin-top: 15px;
+.card-front {
     width: 100%;
-    height: 45px;
-    line-height: 45px;
-    color: antiquewhite;
-}
-
-.card .frente h2 {
+    height: 100%;
+    top: 0;
     position: absolute;
-    margin-left: 15px;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    line-height: 45px;
-    color: antiquewhite;
-}
-
-.card .detras {
-    transform: perspective(600px) rotateY(0deg);
-    background: #070707;
-    padding: 15px;
-    color: antiquewhite;
+    color: white;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    text-align: left;
+    justify-content: space-between;
+    transition: 0.5s;
 }
 
-.card .detras h1 {
+.card:hover .card-front{
+    transform: perspective(600px) rotateY(90deg);
+    color: rgba(16, 6, 6, 0.1);
+}
+
+.card-body  {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: rgba(16, 6, 6, 0.13);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    color: antiquewhite;
+    padding: 20px;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card:hover .card-body{
+    right: 0;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.card-sub-title {
+    text-transform: capitalize;
     margin-top: 10px;
+    font-size: 25px;
+    font-weight: 300;
 }
 
-.card .detras .link {
-    border-top: solid 1px #fff5ec;
-    height: 50px;
-    line-height: 50px;
+.card-info {
+    font-size: 40px;
+    line-height: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Share Tech Mono', monospace;
 }
 
-.card .detras .link a {
+.card-body h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.card-btn {
+    float: right;
+    background: #e8cfcf;
+    padding: 10px 20px;
+    width: 130px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.card-btn a {
     text-decoration: none;
-    color: aqua;
+    color: rgb(30, 11, 2);
 }
 
-.card:hover .detras {
-    transform: perspective(600px) rotateY(360deg);
+.card-btn:hover a {
+    color: #e8cfcf;
 }
 
-.card:hover .frente {
-    transform: perspective(600px) rotateY(180deg);
+.card-btn:hover {
+    background: #52683F;
 }
