@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8c1e5e57-2265-4def-b052-797021ab8011" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Nav/Nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Nav/Nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Inicio/Inicio.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Inicio/Inicio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Inicio/Inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Inicio/Inicio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Productos/Productos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Productos/Productos.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +64,13 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;HTML&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -108,6 +116,12 @@
       <workItem from="1724369802297" duration="31000" />
       <workItem from="1724377680143" duration="1958000" />
       <workItem from="1724425630301" duration="198000" />
+      <workItem from="1724426213605" duration="92000" />
+      <workItem from="1724463587878" duration="1118000" />
+      <workItem from="1724535452788" duration="1304000" />
+      <workItem from="1724559095999" duration="603000" />
+      <workItem from="1724559930851" duration="415000" />
+      <workItem from="1724639557419" duration="2320000" />
     </task>
     <servers />
   </component>
