@@ -1,23 +1,43 @@
+html{
+    height: 100%;
+}
+
 *{
     font-family: 'Popins', sans-serif;
 }
 
 body{
-    background-image: url(https://www.shutterstock.com/shutterstock/photos/2327441315/display_1500/stock-photo-wooden-board-food-background-ingredients-for-cooking-on-table-banner-layout-2327441315.jpg);
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#30142b, #a12727);
+    /*background-image: url(https://www.shutterstock.com/shutterstock/photos/2327441315/display_1500/stock-photo-wooden-board-food-background-ingredients-for-cooking-on-table-banner-layout-2327441315.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
-.box{
+/*.box{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 90vh;
+}*/
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .5);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
 }
 
 .container{
+    margin-left: 10px;
     width: 350px;
     display: flex;
     flex-direction: column;
