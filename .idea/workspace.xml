@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1e5e57-2265-4def-b052-797021ab8011" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Image/Entreadas/Machas-a-la-Parmesana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Entreadas/PALTA-REINA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Entreadas/papas-bravas-internet-web-570x458.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Postre/Leche-Asada-Web.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Postre/MERENGUITOS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/Principal/pollo-al-jugo-web-570x458.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Page/Carrito/Carrito.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Nav/Nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Nav/Nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Consome-Pollo-Web-570x458.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Fideos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Image/Principal/Fideos.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/Porotos.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Image/Principal/Porotos.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Image/tiramisu1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Image/Postre/tiramisu1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Carrito/Carrito.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Carrito/Carrito.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Inicio/Inicio.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Inicio/Inicio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Inicio/Inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Inicio/Inicio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Productos/Productos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Productos/Productos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Productos/Productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Productos/Productos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -75,6 +87,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josef\OneDrive\Escritorio\Web\Image\Principal" />
+      <recent name="C:\Users\josef\OneDrive\Escritorio\Web\Image\Postre" />
+      <recent name="C:\Users\josef\OneDrive\Escritorio\Web\Image" />
+      <recent name="C:\Users\josef\OneDrive\Escritorio\Web\Image\Entreadas" />
       <recent name="C:\Users\josef\OneDrive\Escritorio\Web\Page" />
     </key>
   </component>
@@ -121,7 +137,9 @@
       <workItem from="1724535452788" duration="1304000" />
       <workItem from="1724559095999" duration="603000" />
       <workItem from="1724559930851" duration="415000" />
-      <workItem from="1724639557419" duration="2320000" />
+      <workItem from="1724639557419" duration="2508000" />
+      <workItem from="1724642106421" duration="15000" />
+      <workItem from="1724726261312" duration="6726000" />
     </task>
     <servers />
   </component>

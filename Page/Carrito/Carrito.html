@@ -1,9 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaboreaBox</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Carrito.css">
 </head>
+<header>
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="../Inicio/Inicio.html">
+                <img src="../../Image/45.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-center me-2">
+                <h1>SaboreaBox</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Inicio/Inicio.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Entrada</a></li>
+                            <li><a class="dropdown-item" href="#">Principal</a></li>
+                            <li><a class="dropdown-item" href="#">Postres</a></li>
+                            <li><a class="dropdown-item" href="../Productos/Productos.html">Todos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Carrito/Carrito.html">Carrito</a>
+                    </li>
+                </ul>
+                <form class="container-fluid justify-content-start">
+                    <a href="../Login/Login.html">
+                        <button class="btn btn-outline-success" type="button">Login</button>
+                    </a>
+                    <a href="../Register/Registe.html">
+                        <button class="btn btn-outline-success" type="button">Register</button>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
 <body>
     <h1>Aqui carrito de compras</h1>
 </body>
