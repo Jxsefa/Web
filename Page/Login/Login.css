@@ -9,12 +9,12 @@ html{
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(#30142b, #a12727);
-    /*background-image: url(https://www.shutterstock.com/shutterstock/photos/2327441315/display_1500/stock-photo-wooden-board-food-background-ingredients-for-cooking-on-table-banner-layout-2327441315.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(#90e049, #52683F);
+    background-image: url(/Image/Principal/patron.png);
+    /*background-size: cover;*/
+    background-repeat: repeat;
     background-position: center;
-    background-attachment: fixed;*/
+    /*background-attachment: fixed;*/
 }
 
 /*.box{
@@ -126,3 +126,25 @@ label a{
     text-decoration: none;
 }
 
+.Button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(90deg, #ff0066, #ff6600); 
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 0, 102, 0);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover{
+    box-shadow: 0 10px 20px rgba(255, 0, 102, 0.5);
+    transform: translateY(-3px);
+}
