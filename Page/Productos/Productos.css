@@ -1,3 +1,6 @@
+body{
+    background-color: #ece4d8;
+}
 /*INICIO NAV*/
 .enlace{
     text-align: center;
@@ -110,6 +113,106 @@
                   font-style: normal;
               }
 /*FIN NAV*/
-/*INICIO CARDS*/
 
-/*FINAL CARDS*/
+/* INICIO CARDS */
+/* Estilo general para las tarjetas */
+.card {
+    border: 1px solid #ddd; /* Añade un borde sutil alrededor de la tarjeta */
+    border-radius: 10px; /* Redondea las esquinas de la tarjeta */
+    overflow: hidden; /* Asegura que el contenido no se desborde fuera de la tarjeta */
+    transition: transform 0.2s ease-in-out; /* Transición suave para cambios de tamaño o transformaciones */
+    background-color: #ffffff; /* Establece el color de fondo de la tarjeta */
+}
+
+/* Contenedor de la imagen */
+.card-img-container {
+    position: relative; /* Posiciona elementos dentro de este contenedor de manera relativa */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde del contenedor */
+}
+
+/* Imagen de la tarjeta */
+.card-img-top {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 200px; /* Altura fija para todas las imágenes, asegurando uniformidad */
+    object-fit: cover; /* Ajusta la imagen para que cubra el espacio disponible sin distorsionarse */
+    border-bottom: 1px solid #ddd; /* Añade una línea divisoria entre la imagen y el cuerpo de la tarjeta */
+    transition: filter 0.3s ease; /* Transición suave para el filtro de la imagen */
+}
+
+/* Efecto de difuminado en la imagen al pasar el cursor */
+.card-img-container:hover img {
+    filter: blur(5px); /* Aplica un efecto de difuminado a la imagen */
+}
+
+/* Texto que aparece al pasar el cursor */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    opacity: 0; /* Inicialmente invisible */
+    transition: opacity 0.3s ease; /* Transición suave para la aparición del texto */
+    pointer-events: none; /* Evita la interacción con el texto superpuesto */
+}
+
+/* Muestra el texto al pasar el cursor sobre la imagen */
+.card-img-container:hover .overlay-text {
+    opacity: 1; /* Muestra el texto superpuesto */
+}
+
+/* Estilo para la etiqueta de precio (badge) */
+.badge {
+    font-size: 16px; /* Tamaño de la fuente de la etiqueta de precio */
+    padding: 5px 10px; /* Espaciado interno de la etiqueta */
+    border-radius: 12px; /* Redondea las esquinas de la etiqueta */
+}
+
+/* Título de la tarjeta */
+.card-title {
+    font-size: 18px; /* Tamaño de la fuente del título */
+    font-weight: bold; /* Negrita en el texto del título */
+    color: #333333; /* Color del texto del título */
+    text-align: center; /* Centra el título dentro de la tarjeta */
+    margin-bottom: 10px; /* Margen inferior para separar del resto del contenido */
+}
+
+/* Texto de descripción de la tarjeta */
+.card-text {
+    font-size: 14px; /* Tamaño de la fuente del texto descriptivo */
+    color: #666666; /* Color del texto de la descripción */
+    text-align: center; /* Centra el texto descriptivo dentro de la tarjeta */
+    margin-bottom: 15px; /* Margen inferior para separar del resto del contenido */
+}
+
+/* Estilo del botón principal en la tarjeta */
+.btn-primary {
+    background-color: #bd5237; /* Color de fondo del botón */
+    border-color: #bd5237; /* Color del borde del botón */
+    color: #ffffff; /* Color del texto del botón */
+    font-size: 14px; /* Tamaño de la fuente dentro del botón */
+    padding: 8px 12px; /* Espaciado interno alrededor del texto del botón */
+    border-radius: 4px; /* Redondea las esquinas del botón */
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out; /* Transición suave para cambios de color y tamaño */
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+.btn-primary:hover {
+    background-color: #bd5237; /* Cambia el color de fondo cuando el cursor está sobre el botón */
+    transform: scale(1.05); /* Escala el botón ligeramente cuando el cursor está sobre él */
+}
+
+/* Alineación de los botones dentro de la tarjeta */
+.card-body .d-flex {
+    display: flex; /* Establece un contenedor flexible para los botones */
+    justify-content: space-between; /* Distribuye los botones de manera equitativa con espacio entre ellos */
+}
+
+/* Espaciado y márgenes para las tarjetas */
+.mb-4 {
+    margin-bottom: 20px; /* Añade un margen inferior para separar las tarjetas entre sí */
+}
+
+/* FINAL CARDS */
