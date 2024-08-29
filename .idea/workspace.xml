@@ -6,14 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8c1e5e57-2265-4def-b052-797021ab8011" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Carrito/Carrito.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Carrito/Carrito.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Carrito/Carrito.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Carrito/Carrito.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Inicio/Inicio.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Inicio/Inicio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Inicio/Inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Inicio/Inicio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Productos/Productos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Productos/Productos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Productos/Productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Productos/Productos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/Register/Register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Register/Register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/Wallet/wallet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Wallet/wallet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/Wallet/wallet.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Wallet/wallet.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,9 @@
     &quot;accountId&quot;: &quot;2424d140-f3b0-4d8a-b8de-1a084d54e3ab&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -132,7 +133,10 @@
       <workItem from="1724639557419" duration="2508000" />
       <workItem from="1724642106421" duration="15000" />
       <workItem from="1724726261312" duration="7074000" />
-      <workItem from="1724812479062" duration="6412000" />
+      <workItem from="1724812479062" duration="6658000" />
+      <workItem from="1724819741081" duration="39000" />
+      <workItem from="1724875911171" duration="9598000" />
+      <workItem from="1724973373750" duration="607000" />
     </task>
     <servers />
   </component>

@@ -1,3 +1,6 @@
+body{
+    background-color: #ece4d8;
+}
 /*INICIO NAV*/
 .enlace{
     text-align: center;
@@ -18,7 +21,7 @@
     font-family: "New Amsterdam", sans-serif;
     font-size: 40px;
     font-weight: bold;
-    color: #e8bb4b;
+    color: #f5aa27;
 }
 
 .navbar-brand h1 {/* Color SaboreaBox */
@@ -46,19 +49,19 @@
 }
 
 .nav-item .dropdown-item {
-    color: #ece4d8;
+    color: #ffffff;
     font-size: 16px;
 }
 
 .nav-item .dropdown-item:hover {
-    background-color: #f1f1f1;
+    background-color: #3a4f2b;
     color: #f5aa27;
 }
 
 /* Buttons (Login y Register) */
 .navbar .btn-outline-success {
     margin-left: 10px;
-    color: #ece4d8; /* Color letra */
+    color: #fafafa; /* Color letra */
     border-color: #bd5237;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }

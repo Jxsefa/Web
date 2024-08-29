@@ -21,7 +21,7 @@ body{
     font-family: "New Amsterdam", sans-serif;
     font-size: 40px;
     font-weight: bold;
-    color: #e8bb4b;
+    color: #f5aa27;
 }
 
 .navbar-brand h1 {/* Color SaboreaBox */
@@ -49,19 +49,19 @@ body{
 }
 
 .nav-item .dropdown-item {
-    color: #ece4d8;
+    color: #ffffff;
     font-size: 16px;
 }
 
 .nav-item .dropdown-item:hover {
-    background-color: #f1f1f1;
+    background-color: #3a4f2b;
     color: #f5aa27;
 }
 
 /* Buttons (Login y Register) */
 .navbar .btn-outline-success {
     margin-left: 10px;
-    color: #ece4d8; /* Color letra */
+    color: #fafafa; /* Color letra */
     border-color: #bd5237;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -113,3 +113,38 @@ body{
                   font-style: normal;
               }
 /*FIN NAV*/
+.text-center{
+    font-family: "Roboto Slab", serif;
+    color: #020202;
+}
+/*INICIO CARD*/
+.card {
+    border-radius: 10px; /* Slightly rounded corners for the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.card-title {
+    color: #333; /* Darker text for titles */
+}
+
+.card-text {
+    color: #555; /* Slightly lighter text for descriptions */
+}
+
+.btn-danger {
+    background-color: #bd5237; /* Bootstrap default red color */
+}
+.btn-danger:hover {
+    color: #f5aa27;
+    background-color: #bd5237;
+}
+
+.btn-success {
+    background-color: #486235; /* Bootstrap default green color */
+}
+.btn-success:hover {
+    color: #f5aa27;
+    background-color: #3a4f2b; /* Bootstrap default green color */
+}
+
+/*FIN CARD*/
