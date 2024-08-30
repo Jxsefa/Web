@@ -1,12 +1,14 @@
-body{
+body {
     background-color: #ece4d8;
 }
+
 /*INICIO NAV*/
-.enlace{
+.enlace {
     text-align: center;
     text-decoration: none;
 
 }
+
 /* General Styles for Navbar */
 .navbar {
     width: 100%; /* La navbar ocupará todo el ancho de la pantalla */
@@ -24,10 +26,9 @@ body{
     color: #f5aa27;
 }
 
-.navbar-brand h1 {/* Color SaboreaBox */
+.navbar-brand h1 { /* Color SaboreaBox */
     color: #f5aa27;
 }
-
 
 
 /* Navbar Links */
@@ -87,6 +88,7 @@ body{
     float: right;
     background-color: #bd5237;
 }
+
 .navbar-toggler {
     border: none; /* Elimina el borde */
     outline: none; /* Elimina el contorno si existe */
@@ -95,7 +97,8 @@ body{
 .navbar-toggler-icon {
     background-color: transparent; /* Asegúrate de que el fondo sea transparente */
 }
-.navbar-toggler:focus{
+
+.navbar-toggler:focus {
     border: none !important; /* Usar !important para asegurarte de que sobrescriba otros estilos */
     outline: none !important;
     box-shadow: none !important; /* Elimina sombras que puedan parecer un borde */
@@ -106,17 +109,23 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-.roboto-slab-<uniquifier> {
-                  font-family: "Roboto Slab", serif;
-                  font-optical-sizing: auto;
-                  font-weight: <weight>;
-                  font-style: normal;
-              }
+
+.roboto-slab-
+
+<
+uniquifier > {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: < weight >;
+    font-style: normal;
+}
+
 /*FIN NAV*/
-.text-center{
+.text-center {
     font-family: "Roboto Slab", serif;
     color: #020202;
 }
+
 /*INICIO CARD*/
 .card {
     border-radius: 10px; /* Slightly rounded corners for the cards */
@@ -134,6 +143,7 @@ body{
 .btn-danger {
     background-color: #bd5237; /* Bootstrap default red color */
 }
+
 .btn-danger:hover {
     color: #f5aa27;
     background-color: #bd5237;
@@ -142,6 +152,7 @@ body{
 .btn-success {
     background-color: #486235; /* Bootstrap default green color */
 }
+
 .btn-success:hover {
     color: #f5aa27;
     background-color: #3a4f2b; /* Bootstrap default green color */
