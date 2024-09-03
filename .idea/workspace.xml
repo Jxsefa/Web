@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1e5e57-2265-4def-b052-797021ab8011" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Page/Perfil Admin/PerfilAdmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Page/Perfil Admin/PerfilAdmin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Carrito/Carrito.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Carrito/Carrito.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Carrito/Carrito.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Carrito/Carrito.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Inicio/Inicio.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Inicio/Inicio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/Inicio/Inicio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Inicio/Inicio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -86,7 +89,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
       </set>
     </attachedChunks>
   </component>
@@ -133,7 +136,12 @@
       <workItem from="1724819741081" duration="39000" />
       <workItem from="1724875911171" duration="9598000" />
       <workItem from="1724973373750" duration="1091000" />
-      <workItem from="1724979233586" duration="6281000" />
+      <workItem from="1724979233586" duration="6748000" />
+      <workItem from="1724986642310" duration="83000" />
+      <workItem from="1725246190134" duration="67000" />
+      <workItem from="1725317076497" duration="194000" />
+      <workItem from="1725317476832" duration="163000" />
+      <workItem from="1725317649669" duration="3141000" />
     </task>
     <servers />
   </component>

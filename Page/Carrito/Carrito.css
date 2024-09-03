@@ -159,3 +159,10 @@ uniquifier > {
 }
 
 /*FIN CARD*/
+
+/* Footer personalizado */
+.custom-footer {
+    background-color: #3a4f2b; /* Slate gray */
+    color: #fff;
+    font-size: 0.9em;
+}
