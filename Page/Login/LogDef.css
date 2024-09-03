@@ -3,6 +3,19 @@
     padding: 0;
 }
 
+.new-amsterdam-regular {
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+uniquifier > {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: < weight >;
+    font-style: normal;
+}
+
 body {
     height: 100vh;
     width: 100vw;
@@ -20,7 +33,7 @@ body:before{
 }
 
 .box {
-    height: 400px;
+    height: 420px;
     width: 370px;
     backdrop-filter: blur(5px);
     border: 1px solid white;
@@ -32,17 +45,175 @@ body:before{
 }
 
 span {
-    color: white;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0 15px 0;
-}
-
-header {
+    font-family: "New Amsterdam", sans-serif;
     color: white;
     font-size: 30px;
     display: flex;
     justify-content: center;
-    padding: 0 0 15px 0;
+    padding: 10px 0 5px 0;
+}
+
+header {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.user {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    margin-left: 20px;
+    position: relative;
+}
+
+.user input{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    padding: 8px 8px 8px 15px;
+    background: transparent;
+    border: none;
+    width: 100%;
+    border: 1px solid #cecece;
+    border-radius: 50px;
+    font-size: 17px;
+    outline: none;
+    color: white;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.user input:hover {
+    box-shadow: 0 0px 20px rgba(245, 241, 242, 0.5);
+    
+}
+.password {
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    margin-left: 20px;
+    position: relative;
+}
+
+.password input{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    padding: 8px 8px 8px 15px;
+    background: transparent;
+    border: none;
+    width: 100%;
+    border: 1px solid #cecece;
+    border-radius: 50px;
+    font-size: 17px;
+    outline: none;
+    color: white;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.password input:hover {
+    box-shadow: 0 0px 20px rgba(245, 241, 242, 0.5);
+    
+}
+
+i {
+    position: relative;
+    left: -32px;
+    color: #fff;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.remember-forget {
+    height: auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.remember-forget .remember {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+
+.remember-forget .remember input {
+    height: 15px;
+    width: 15px;
+    margin-right: 0.2rem;
+    border: 1px solid #cecece;
+    border-radius: 50px;
+    outline: none;
+}
+
+.remember-forget .forgot a {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(90deg, #ff0066, #ff6600);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(255, 0, 102, 0);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.button:hover {
+    box-shadow: 0 10px 20px rgba(255, 0, 102, 0.5);
+    transform: translateY(-3px);
+}
+
+.registro {
+    color: #fff;
+    font-size: 15px;
+}
+
+.registro a {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.admin {
+    margin-top: 10px;
+}
+
+.admin a{
+    font-size: 15px;
+    color: #ff0066;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
 }
