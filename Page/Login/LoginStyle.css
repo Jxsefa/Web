@@ -22,7 +22,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(#90e049,#52683F);
+    background: url(Wallpaper.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(2.5px);
+    backdrop-filter: ;
+    /*background: linear-gradient(#f5bc53,#FFE6A7);*/
 }
 
 body:before{
@@ -36,12 +41,13 @@ body:before{
     height: 420px;
     width: 370px;
     backdrop-filter: blur(5px);
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 0px 0px 6px white;
+    background: rgba(44, 126, 27, 0.4) !important;
+    box-shadow: 0px 0px 15px #52683F;
 }
 
 span {
@@ -51,6 +57,12 @@ span {
     display: flex;
     justify-content: center;
     padding: 10px 0 5px 0;
+    background: #c04528;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 header {
@@ -90,7 +102,7 @@ header {
 
 .user input:hover {
     box-shadow: 0 0px 20px rgba(245, 241, 242, 0.5);
-    
+
 }
 .password {
     width: 90%;
@@ -119,7 +131,7 @@ header {
 
 .password input:hover {
     box-shadow: 0 0px 20px rgba(245, 241, 242, 0.5);
-    
+
 }
 
 i {
@@ -212,7 +224,7 @@ i {
 
 .admin a{
     font-size: 15px;
-    color: #ff0066;
+    color: #f3350b;
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
