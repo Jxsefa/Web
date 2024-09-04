@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(Wallpaper.png) no-repeat;
+    background: url(/Image/Wallpaper.png) no-repeat;
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(2.5px);
