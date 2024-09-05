@@ -125,6 +125,7 @@ uniquifier > {
     border-radius: 20px; /* Esquinas redondeadas */
     padding: 10px; /* Espacio interno */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra para un efecto de profundidad */
+    margin-bottom: 40px; /* Añade margen inferior para separar del footer */
 }
 
 /* Encabezado */
@@ -166,6 +167,7 @@ h2.text-center {
     background-color: #3a4f2b; /* Slate gray */
     color: #fff;
     font-size: 0.9em;
+    margin-top: auto; /* Empuja el footer al final */
 }
 
 #productosCarrusel {

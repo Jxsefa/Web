@@ -165,4 +165,5 @@ uniquifier > {
     background-color: #3a4f2b; /* Slate gray */
     color: #fff;
     font-size: 0.9em;
+    margin-top: auto; /* Empuja el footer al final */
 }

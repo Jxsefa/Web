@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c1e5e57-2265-4def-b052-797021ab8011" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Page/Perfil Admin/PerfilAdmin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/Perfil Admin/PerfilAdmin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/5.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Carrito/Carrito.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Carrito/Carrito.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/Carrito/Carrito.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Carrito/Carrito.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Page/Inicio/Inicio.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Inicio/Inicio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Login/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Login/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Login/LoginStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Login/LoginStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Perfil Admin/PerfilAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/PerfilAdmin/PerfilAdmin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Perfil Admin/PerfilAdmin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/PerfilAdmin/PerfilAdmin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Productos/Productos.css" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Productos/Productos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/Productos/Productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Page/Productos/Productos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +83,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josef\OneDrive\Escritorio\Web\Image" />
       <recent name="C:\Users\josef\OneDrive\Escritorio\Web\Image\Principal" />
       <recent name="C:\Users\josef\OneDrive\Escritorio\Web\Image\Postre" />
-      <recent name="C:\Users\josef\OneDrive\Escritorio\Web\Image" />
       <recent name="C:\Users\josef\OneDrive\Escritorio\Web\Image\Entreadas" />
       <recent name="C:\Users\josef\OneDrive\Escritorio\Web\Page" />
     </key>
@@ -141,7 +145,13 @@
       <workItem from="1725246190134" duration="67000" />
       <workItem from="1725317076497" duration="194000" />
       <workItem from="1725317476832" duration="163000" />
-      <workItem from="1725317649669" duration="3141000" />
+      <workItem from="1725317649669" duration="3347000" />
+      <workItem from="1725330588746" duration="532000" />
+      <workItem from="1725419453800" duration="33000" />
+      <workItem from="1725421977393" duration="19000" />
+      <workItem from="1725492516560" duration="1122000" />
+      <workItem from="1725493963529" duration="596000" />
+      <workItem from="1725498112009" duration="6739000" />
     </task>
     <servers />
   </component>
