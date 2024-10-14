@@ -119,194 +119,219 @@ uniquifier > {
 
 /*FIN NAV*/
 
+/* Títulos Generales */
 h1 {
-    color: #f5aa27;
-    font-family: "New Amsterdam", sans-serif;
+    color: #f5aa27; /* Color anaranjado para los títulos h1 */
+    font-family: "New Amsterdam", sans-serif; /* Fuente personalizada para h1 */
 }
 
-/* Estilo General */
-.admin-header {
-    color: white;
-    padding: 1.5rem;
-    text-align: center;
-}
-
-/* Estilo de la barra de navegación de las secciones */
-.nav-tabs .nav-link {
+h2 {
+    color: #56753f; /* Color verde para los títulos h2 */
     font-family: "Roboto Slab", serif;
-    background-color: #486235;
-    color: white;
-    margin-right: 5px;
-    border-radius: 5px;
+}
+
+/* Encabezado Administrativo */
+.admin-header {
+    color: #020202; /* Color del texto negro */
+    padding: 1.5rem; /* Relleno de 1.5rem alrededor del texto */
+    text-align: center; /* Centrar el texto */
+    font-family: 'New Amsterdam', sans-serif; /* Fuente personalizada para el encabezado */
+    font-size: 40px; /* Tamaño grande para destacar el encabezado */
+}
+
+/* Estilo de las Pestañas de Navegación de Secciones */
+.nav-tabs .nav-link {
+    font-family: "Roboto Slab", serif; /* Fuente personalizada para las pestañas */
+    background-color: #486235; /* Fondo verde oscuro */
+    color: white; /* Color del texto en blanco */
+    margin-right: 5px; /* Espacio entre las pestañas */
+    border-radius: 5px; /* Bordes redondeados para las pestañas */
 }
 
 .nav-tabs .nav-link:hover {
-    background-color: #f5aa27;
+    background-color: #f5aa27; /* Color anaranjado al pasar el cursor */
 }
 
 .nav-tabs .nav-link.active {
-    background-color: #f5aa27;
-    color: white;
+    background-color: #f5aa27; /* Fondo anaranjado para la pestaña activa */
+    color: white; /* Texto blanco para la pestaña activa */
 }
 
-/* Tablas */
+/* INICIO TABLA */
 .table {
+    border: none; /* Elimina los bordes de la tabla */
     border-radius: 12px; /* Bordes redondeados */
-    margin-top: 20px;
+    margin-top: 20px; /* Espacio superior para la tabla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-spacing: 0 10px; /* Espaciado entre las filas */
+    font-family: "Roboto Slab", serif; /* Tipografía personalizada */
+}
+
+.table th {
+    background-color: #486235; /* Fondo verde para los encabezados */
+    color: #ffffff; /* Texto blanco en los encabezados */
+    padding: 10px; /* Espaciado interno en las celdas de los encabezados */
+    font-weight: bold; /* Resalta los encabezados */
+    text-align: center; /* Alinea el texto al centro */
+    font-size: 18px; /* Tamaño de fuente más grande para los encabezados */
+    vertical-align: middle; /* Centra el contenido de las celdas verticalmente */
+}
+
+.table td {
+    background-color: #fffefe; /* Fondo claro para las celdas */
+    color: #6c7a34; /* Texto verde oscuro para las celdas */
+    padding: 5px; /* Espaciado interno en las celdas */
+    border-bottom: 1px solid #ccc; /* Borde inferior suave entre filas */
+    font-size: 18px; /* Tamaño de fuente adecuado */
+    text-align: center; /* Alineación del texto en las celdas */
+    vertical-align: middle; /* Centra el contenido de las celdas verticalmente */
 }
 
 .table img {
-    border-radius: 3px; /* Bordes redondeados para las imágenes en la tabla */
+    border-radius: 3px; /* Bordes redondeados para las imágenes */
+    max-width: 200px; /* Tamaño máximo para las imágenes dentro de las celdas */
 }
 
-.table td, .table th {
-    vertical-align: middle; /* Centrar el contenido de las celdas */
+.btn-danger, .btn-edit {
+    padding: 10px 1px; /* Ajusta el tamaño interno de los botones */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
 }
 
-/* Estilo de las tarjetas del dashboard */
+/* Ajustes responsivos para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .btn-group {
+        grid-template-columns: 1fr; /* Cada botón ocupa toda la fila en pantallas pequeñas */
+    }
+}
+/* FIN DE TABLA */
+
+/* INICIO DASHBOARD */
+
+/* Estilos para las Tarjetas del Dashboard */
 .card {
-    border-radius: 12px; /* Bordes redondeados */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    background-color: #ece4d8; /* Color de fondo claro para las tarjetas */
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Aumenta el relleno para darle más aire */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animación para el hover */
 }
 
+.card:hover {
+    background-color: #f5aa27; /* Cambia el color de fondo al hacer hover */
+    transform: translateY(-5px); /* Eleva ligeramente la tarjeta al pasar el cursor */
+}
+
+/* Títulos dentro de las Tarjetas */
 .card h5, .card h3 {
     font-family: 'Roboto Slab', serif; /* Fuente especial para títulos */
+    color: #ffffff; /* Color del texto */
 }
 
-/* Estilos de botones */
-.btn {
-    border-radius: 4px;
-    font-size: 0.875rem;
-    padding: 0.5rem 1rem;
+/* Texto del Contenido de las Tarjetas */
+.card p {
+    font-family: 'Roboto Slab', serif; /* Fuente para el texto de los párrafos */
+    color: #ffffff; /* Color del texto de los párrafos */
 }
 
-.btn-sm {
-    padding: 0.25rem 0.5rem; /* Botones pequeños para las acciones de edición/eliminación */
-}
-
-.btn-warning {
-    background-color: #f0ad4e;
-    border: none;
-}
-
-.btn-warning:hover {
-    background-color: #ec971f;
-}
-
-.btn-danger {
-    background-color: #d9534f;
-    border: none;
-}
-
-.btn-danger:hover {
-    background-color: #c9302c;
-}
-
-/* Estilo para los listados dentro de las tarjetas */
-.list-group-item {
-    background-color: #ffffff;
-    border: none;
-}
-
-.list-group-item + .list-group-item {
-    border-top: 1px solid #dee2e6;
-}
-
-/* Estilo para formularios de agregar/editar productos */
-.form-label {
-    font-weight: bold;
-    color: #333;
-}
-
-input, textarea, select {
-    background-color: #fff;
-    color: #6c7a34;
-    border: 1px solid #ffffff;
-    border-radius: 4px;
-    padding: 10px;
-}
-
-input::placeholder, textarea::placeholder {
-    color: #6c7a34;
-}
-
-/* Estilo para el botón de subir imagen */
-.cuadro label[for="productImage"] {
-    cursor: pointer;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(54, 54, 54, 0.4);
-    border-radius: 8px;
-    padding: 100px;
-    text-align: center;
-    color: white;
-}
-
-.cuadro label[for="productImage"]:hover {
-    background-color: rgba(54, 54, 54, 0.6);
-}
-
-.cuadro {
-    background-color: #bd5237; /* Fondo más oscuro para los cuadros */
-    padding: 20px;
-    border-radius: 8px;
-    color: white;
-    margin-bottom: 20px; /* Espacio entre cuadros */
-}
-
-/* Estilo para la tabla de comparación de ventas */
-.table-comparison {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-}
-
-.table-comparison th, .table-comparison td {
-    padding: 1rem;
-    text-align: center;
-}
-
-/* Estilo del footer */
-.custom-footer {
-    background-color: #333;
-    padding: 2rem 0;
-}
-
-.custom-footer a {
-    color: #f8b400;
-}
-
-.custom-footer a:hover {
-    color: #d39e00;
-}
-
-/* Estilo Responsivo */
+/* Estilos Responsivos para Pantallas Más Pequeñas */
 @media (max-width: 768px) {
-    .nav-tabs {
-        flex-direction: column;
-    }
-    .nav-tabs .nav-link {
-        margin-bottom: 10px;
+    .card {
+        padding: 15px; /* Reduce el relleno en pantallas más pequeñas */
     }
 
     .card h5, .card h3 {
-        font-size: 1.2rem;
+        font-size: 1.2rem; /* Reduce el tamaño de los títulos en pantallas pequeñas */
     }
 }
 
 @media (max-width: 576px) {
-    .cuadro label[for="productImage"] {
-        padding: 80px;
+    .admin-header {
+        font-size: 24px; /* Reduce el tamaño del encabezado en pantallas pequeñas */
     }
 
     .card h5, .card h3 {
-        font-size: 1rem;
-    }
-
-    .table img {
-        width: 80px; /* Ajustar el tamaño de las imágenes en pantallas pequeñas */
+        font-size: 1rem; /* Ajuste de los títulos aún más pequeño para pantallas móviles */
     }
 }
+/* FIN DASHBOARD */
+
+/* INICIO AGREGAR PRODUCTO */
+.form-label {
+    font-weight: bold; /* Texto más grueso para destacar las etiquetas */
+    color: #f5aa27; /* Color anaranjado para las etiquetas */
+    font-family: "Roboto Slab", serif; /* Fuente personalizada */
+}
+
+/* Inputs, Textarea y Select */
+input, textarea, select {
+    background-color: #ffffff; /* Fondo blanco para los inputs */
+    border: 1px solid #ccd0d5; /* Borde gris suave */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 12px; /* Espaciado interno */
+    width: 100%; /* Ajusta el ancho de los campos al 100% del contenedor */
+    font-family: "Roboto Slab", serif; /* Fuente general */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: border-color 0.3s ease-in-out; /* Animación de borde */
+}
+
+/* Botones en el Formulario */
+.btn-primary {
+    background-color: #f5aa27; /* Color de fondo anaranjado */
+    border: none; /* Sin borde */
+    color: #ffffff; /* Texto blanco */
+    font-family: "Roboto Slab", serif; /* Fuente personalizada */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    margin-top: 15px; /* Espacio superior para separar del contenido */
+    transition: background-color 0.3s ease; /* Animación de cambio de color */
+}
+
+.btn-primary:hover {
+    background-color: #486235; /* Cambio de color al pasar el cursor */
+}
+
+/* Estilo para el Cuadro de Subir Imagen */
+.cuadro {
+    background-color: #bd5237; /* Fondo anaranjado para el cuadro de subir imagen */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 12px; /* Bordes redondeados */
+    color: #f5aa27; /* Texto anaranjado */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-align: center; /* Centra el contenido dentro del cuadro */
+}
+
+.cuadro label[for="productImage"] {
+    cursor: pointer; /* Cambia el cursor cuando se pasa sobre el cuadro */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    height: 100%; /* Asegura que ocupe todo el alto */
+    display: flex; /* Permite centrar el contenido */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    background-color: rgba(54, 54, 54, 0.4); /* Fondo transparente para el área de subir imagen */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 80px; /* Espaciado interno */
+    color: #ffffff; /* Texto blanco */
+}
+
+.cuadro label[for="productImage"]:hover {
+    background-color: rgba(54, 54, 54, 0.6); /* Fondo más oscuro al pasar el cursor */
+}
+
+/* Estilos Responsivos para Pantallas Más Pequeñas */
+@media (max-width: 768px) {
+    .cuadro label[for="productImage"] {
+        padding: 60px; /* Reduce el padding en pantallas más pequeñas */
+    }
+
+    .btn-primary, .btn-secondary {
+        width: 100%; /* Botones ocupan todo el ancho en pantallas pequeñas */
+        margin-bottom: 10px; /* Espacio inferior para los botones en pantallas pequeñas */
+    }
+}
+/* FIN AGREGAR PRODUCTO */
+
+
+
+
