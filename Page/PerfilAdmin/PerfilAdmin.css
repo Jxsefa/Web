@@ -124,44 +124,113 @@ h1 {
     font-family: "New Amsterdam", sans-serif;
 }
 
-.cuadro {
-    background-color: #cc5533;
-    padding: 20px;
-    border-radius: 8px;
+/* Estilo General */
+.admin-header {
     color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+/* Estilo de la barra de navegación de las secciones */
+.nav-tabs .nav-link {
     font-family: "Roboto Slab", serif;
+    background-color: #486235;
+    color: white;
+    margin-right: 5px;
+    border-radius: 5px;
 }
 
-.form-label {
+.nav-tabs .nav-link:hover {
+    background-color: #f5aa27;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #f5aa27;
     color: white;
 }
 
-.btn-primary {
-    background-color: #6c7a34;
+/* Tablas */
+.table {
+    border-radius: 12px; /* Bordes redondeados */
+    margin-top: 20px;
+}
+
+.table img {
+    border-radius: 3px; /* Bordes redondeados para las imágenes en la tabla */
+}
+
+.table td, .table th {
+    vertical-align: middle; /* Centrar el contenido de las celdas */
+}
+
+/* Estilo de las tarjetas del dashboard */
+.card {
+    border-radius: 12px; /* Bordes redondeados */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.card h5, .card h3 {
+    font-family: 'Roboto Slab', serif; /* Fuente especial para títulos */
+}
+
+/* Estilos de botones */
+.btn {
+    border-radius: 4px;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.5rem; /* Botones pequeños para las acciones de edición/eliminación */
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
     border: none;
 }
 
-.btn-primary:hover {
-    background-color: #53632b;
+.btn-warning:hover {
+    background-color: #ec971f;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+
+/* Estilo para los listados dentro de las tarjetas */
+.list-group-item {
+    background-color: #ffffff;
+    border: none;
+}
+
+.list-group-item + .list-group-item {
+    border-top: 1px solid #dee2e6;
+}
+
+/* Estilo para formularios de agregar/editar productos */
+.form-label {
+    font-weight: bold;
+    color: #333;
 }
 
 input, textarea, select {
     background-color: #fff;
     color: #6c7a34;
-    border: none;
+    border: 1px solid #ffffff;
     border-radius: 4px;
+    padding: 10px;
 }
 
 input::placeholder, textarea::placeholder {
     color: #6c7a34;
 }
 
-input[type="file"] {
-    padding: 5px;
-    display: none;
-}
-
-/* Estilo adicional para hacer el botón de agregar imagen cuadrado y centrado */
+/* Estilo para el botón de subir imagen */
 .cuadro label[for="productImage"] {
     cursor: pointer;
     width: 100%;
@@ -171,14 +240,73 @@ input[type="file"] {
     justify-content: center;
     background-color: rgba(54, 54, 54, 0.4);
     border-radius: 8px;
-    padding: 150px;
+    padding: 100px;
     text-align: center;
     color: white;
 }
+
+.cuadro label[for="productImage"]:hover {
+    background-color: rgba(54, 54, 54, 0.6);
+}
+
 .cuadro {
-    background-color: #bd5237;
+    background-color: #bd5237; /* Fondo más oscuro para los cuadros */
     padding: 20px;
     border-radius: 8px;
     color: white;
-    margin-bottom: 20px; /* Añadir margen inferior para separar los cuadros */
+    margin-bottom: 20px; /* Espacio entre cuadros */
+}
+
+/* Estilo para la tabla de comparación de ventas */
+.table-comparison {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.table-comparison th, .table-comparison td {
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilo del footer */
+.custom-footer {
+    background-color: #333;
+    padding: 2rem 0;
+}
+
+.custom-footer a {
+    color: #f8b400;
+}
+
+.custom-footer a:hover {
+    color: #d39e00;
+}
+
+/* Estilo Responsivo */
+@media (max-width: 768px) {
+    .nav-tabs {
+        flex-direction: column;
+    }
+    .nav-tabs .nav-link {
+        margin-bottom: 10px;
+    }
+
+    .card h5, .card h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .cuadro label[for="productImage"] {
+        padding: 80px;
+    }
+
+    .card h5, .card h3 {
+        font-size: 1rem;
+    }
+
+    .table img {
+        width: 80px; /* Ajustar el tamaño de las imágenes en pantallas pequeñas */
+    }
 }
