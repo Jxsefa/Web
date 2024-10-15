@@ -63,7 +63,6 @@
     </nav>
 </header>
 <body>
-<body>
 <!-- Contenedor principal del wallet -->
 <div class="container wallet-container">
     <div class="row">
@@ -81,7 +80,7 @@
                         </div>
                         <div class="virtual-card-body">
                             <p><strong>Número de Tarjeta:</strong> 1234 5678 9012 3456</p>
-                            <p><strong>Nombre del Titular:</strong> Juan Pérez</p>
+                            <p><strong>Nombre del Titular:</strong> Juancho Cornejo</p>
                             <p><strong>Fecha de Vencimiento:</strong> 12/25</p>
                             <p><strong>Saldo:</strong> $50.000</p> <!-- Saldo agregado -->
                         </div>
@@ -132,8 +131,42 @@
             <div class="card mb-4">
                 <div class="card-body">
                     <h6>¿Quedaste con hambre?</h6>
-                    <img src="ruta-de-imagen" alt="Imagen" class="img-fluid">
-                    <p>Descripción</p>
+                    <div class="container mt-5">
+                        <div id="productosCarrusel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="../../Image/Entreadas/papas-bravas-internet-web-570x458.jpg"
+                                             class="d-block custom-carousel-img img-fluid" alt="Tiramisu Box">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="../../Image/Postre/Leche-Asada-Web.jpg"
+                                             class="d-block custom-carousel-img img-fluid" alt="Machas Box">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="../../Image/Principal/Porotos.jpg" class="d-block custom-carousel-img img-fluid"
+                                             alt="Fideos Box">
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#productosCarrusel"
+                                    data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#productosCarrusel"
+                                    data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                    </div>
+                    <p>¡No te preocupes! Revisa nuestra selección de productos deliciosos y encuentra algo que te guste.</p>
+                    <a href="/Page/Productos/Productos.html" class="btn btn-primary">Ir a productos</a>
                 </div>
             </div>
         </div>
