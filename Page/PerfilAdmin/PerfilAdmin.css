@@ -159,103 +159,139 @@ h2 {
 
 /* INICIO TABLA */
 .table {
-    border: none; /* Elimina los bordes de la tabla */
-    border-radius: 12px; /* Bordes redondeados */
-    margin-top: 20px; /* Espacio superior para la tabla */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    border-spacing: 0 10px; /* Espaciado entre las filas */
-    font-family: "Roboto Slab", serif; /* Tipografía personalizada */
+    border: none;
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-spacing: 0 10px;
+    font-family: "Roboto Slab", serif;
 }
 
 .table th {
-    background-color: #486235; /* Fondo verde para los encabezados */
-    color: #ffffff; /* Texto blanco en los encabezados */
-    padding: 10px; /* Espaciado interno en las celdas de los encabezados */
-    font-weight: bold; /* Resalta los encabezados */
-    text-align: center; /* Alinea el texto al centro */
-    font-size: 18px; /* Tamaño de fuente más grande para los encabezados */
-    vertical-align: middle; /* Centra el contenido de las celdas verticalmente */
+    background-color: #486235;
+    color: #ffffff;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: middle;
 }
 
 .table td {
-    background-color: #fffefe; /* Fondo claro para las celdas */
-    color: #6c7a34; /* Texto verde oscuro para las celdas */
-    padding: 5px; /* Espaciado interno en las celdas */
-    border-bottom: 1px solid #ccc; /* Borde inferior suave entre filas */
-    font-size: 18px; /* Tamaño de fuente adecuado */
-    text-align: center; /* Alineación del texto en las celdas */
-    vertical-align: middle; /* Centra el contenido de las celdas verticalmente */
+    background-color: #fffefe;
+    color: #6c7a34;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .table img {
-    border-radius: 3px; /* Bordes redondeados para las imágenes */
-    max-width: 200px; /* Tamaño máximo para las imágenes dentro de las celdas */
+    border-radius: 3px;
+    max-width: 200px;
 }
 
-.btn-danger, .btn-edit {
-    padding: 10px 1px; /* Ajusta el tamaño interno de los botones */
-    border-radius: 5px; /* Bordes redondeados */
-    font-size: 16px; /* Tamaño de fuente */
+/* Botón Editar (verde oscuro) */
+.btn-edit {
+    background-color: #486235;
+    color: #ffffff;
+    border: none;
 }
 
-/* Ajustes responsivos para pantallas más pequeñas */
+/* Botón Eliminar (rojo oscuro) */
+.btn-danger {
+    background-color: #bd5237;
+    color: #ffffff;
+    border: none;
+}
+
+/* Alinear los botones en el centro de la celda y añadir espaciado */
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-edit, .btn-danger {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+/* Responsividad para pantallas pequeñas */
 @media (max-width: 768px) {
     .btn-group {
-        grid-template-columns: 1fr; /* Cada botón ocupa toda la fila en pantallas pequeñas */
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-edit, .btn-danger {
+        width: 100%;
     }
 }
+
 /* FIN DE TABLA */
+
+
+/* Botón genérico naranja (para otras secciones) */
+.btn-warning {
+    background-color: #bd5237;
+    color: #ffffff;
+    border: none;
+}
+
+
+/* FIN DE BOTONES GENERALES */
+
+
 
 /* INICIO DASHBOARD */
 
-/* Estilos para las Tarjetas del Dashboard */
+/* Estilos base para todas las tarjetas */
 .card {
-    border-radius: 15px; /* Bordes redondeados */
-    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
-    background-color: #ece4d8; /* Color de fondo claro para las tarjetas */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     margin-bottom: 20px; /* Espacio entre las tarjetas */
-    padding: 20px; /* Aumenta el relleno para darle más aire */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Animación para el hover */
+    padding: 20px; /* Espacio interior */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
 }
-
-.card:hover {
-    background-color: #f5aa27; /* Cambia el color de fondo al hacer hover */
-    transform: translateY(-5px); /* Eleva ligeramente la tarjeta al pasar el cursor */
+/* Tarjeta 1: Total Ventas */
+.card-1 {
+    background-color: #486235; /* Color naranja claro */
 }
-
-/* Títulos dentro de las Tarjetas */
+/* Tarjeta 2: Productos Vendidos */
+.card-2 {
+    background-color: #bd5237; /* Azul claro */
+}
+/* Tarjeta 3: Usuarios Activos */
+.card-3 {
+    background-color: #e8bb4b; /* Verde claro */
+}
+/* Tarjeta 4: Nuevos Usuarios */
+.card-4 {
+    background-color: #bd5237; /* Amarillo claro */
+}
+/* Tarjeta 5: Productos en Stock */
+.card-5 {
+    background-color: #e8bb4b; /* Gris claro */
+}
+/* Tarjeta 6: Comparación de Ventas */
+.card-6 {
+    background-color: #486235; /* Azul claro */
+}
+/* Estilos para los textos de las tarjetas */
 .card h5, .card h3 {
-    font-family: 'Roboto Slab', serif; /* Fuente especial para títulos */
-    color: #ffffff; /* Color del texto */
+    font-family: 'Roboto Slab', serif; /* Fuente para títulos */
+    color: #fffefe; /* Color blanco para el texto */
 }
-
-/* Texto del Contenido de las Tarjetas */
 .card p {
-    font-family: 'Roboto Slab', serif; /* Fuente para el texto de los párrafos */
-    color: #ffffff; /* Color del texto de los párrafos */
-}
-
-/* Estilos Responsivos para Pantallas Más Pequeñas */
-@media (max-width: 768px) {
-    .card {
-        padding: 15px; /* Reduce el relleno en pantallas más pequeñas */
-    }
-
-    .card h5, .card h3 {
-        font-size: 1.2rem; /* Reduce el tamaño de los títulos en pantallas pequeñas */
-    }
-}
-
-@media (max-width: 576px) {
-    .admin-header {
-        font-size: 24px; /* Reduce el tamaño del encabezado en pantallas pequeñas */
-    }
-
-    .card h5, .card h3 {
-        font-size: 1rem; /* Ajuste de los títulos aún más pequeño para pantallas móviles */
-    }
+    font-family: 'Roboto Slab', serif; /* Fuente para párrafos */
+    color: #ffffff; /* Color blanco para los párrafos */
 }
 /* FIN DASHBOARD */
+
 
 /* INICIO AGREGAR PRODUCTO */
 .form-label {

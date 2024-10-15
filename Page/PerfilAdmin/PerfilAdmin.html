@@ -62,7 +62,6 @@
     </nav>
 </header>
 <body>
-<body>
 <div class="admin-header">
     <h1>Panel de Administración</h1>
 </div>
@@ -81,14 +80,13 @@
     </ul>
 
     <!-- Dashboard -->
-
     <div id="dashboard" class="tab-content mt-4">
         <div class="container">
             <h2 class="text-center mb-4">Dashboard de Ganancias</h2>
             <div class="row">
                 <!-- Tarjeta 1: Total Ventas -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card text-white bg-success h-100">
+                    <div class="card card-1 h-100">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="card-title text-center">Total Ventas</h5>
                             <h3 class="card-text text-center">$50,000</h3>
@@ -99,7 +97,7 @@
 
                 <!-- Tarjeta 2: Productos Vendidos -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card text-white bg-primary h-100">
+                    <div class="card card-2 h-100">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="card-title text-center">Productos Vendidos</h5>
                             <h3 class="card-text text-center">120</h3>
@@ -110,7 +108,7 @@
 
                 <!-- Tarjeta 3: Usuarios Activos -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card text-white bg-info h-100">
+                    <div class="card card-3 h-100">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="card-title text-center">Usuarios Activos</h5>
                             <h3 class="card-text text-center">75</h3>
@@ -124,7 +122,7 @@
             <div class="row">
                 <!-- Tarjeta 4: Nuevos Usuarios -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card text-white bg-warning h-100">
+                    <div class="card card-4 h-100">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="card-title text-center">Nuevos Usuarios</h5>
                             <h3 class="card-text text-center">20</h3>
@@ -135,7 +133,7 @@
 
                 <!-- Tarjeta 5: Productos en Stock -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card text-white bg-dark h-100">
+                    <div class="card card-5 h-100">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="card-title text-center">Productos en Stock</h5>
                             <h3 class="card-text text-center">350</h3>
@@ -146,7 +144,7 @@
 
                 <!-- Tarjeta Comparación de Ventas con meses anteriores -->
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card text-white bg-info h-100">
+                    <div class="card card-6 h-100">
                         <div class="card-body d-flex flex-column justify-content-between">
                             <h5 class="card-title text-center">Comparación de Ventas</h5>
                             <p class="card-text text-center">Ventas actuales (Octubre):</p>
@@ -158,64 +156,71 @@
                     </div>
                 </div>
             </div>
-            <!-- Sección Editar Producto -->
-            <div id="editar" class="tab-content mt-4">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Lista de Productos</h2>
-                        <!-- Tabla con Bootstrap -->
-                        <div class="table-responsive">
-                            <table class="table table-bordered table-hover">
-                                <thead class="table-dark">
-                                <tr>
-                                    <th scope="col">Imagen</th>
-                                    <th scope="col">Nombre del Producto</th>
-                                    <th scope="col">Precio</th>
-                                    <th scope="col">Acciones</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <!-- Producto 1 -->
-                                <tr>
-                                    <td><img src="../../Image/Postre/tiramisu1.jpg" alt="Tiramisu" class="img-fluid"
-                                             width="100"></td>
-                                    <td>Tiramisu Box</td>
-                                    <td>$10.000</td>
-                                    <td>
-                                        <button class="btn btn-warning btn-sm">Editar</button>
-                                        <button class="btn btn-danger btn-sm">Eliminar</button>
-                                    </td>
-                                </tr>
-                                <!-- Producto 2 -->
-                                <tr>
-                                    <td><img src="../../Image/Entreadas/Machas-a-la-Parmesana.jpg" alt="Machas"
-                                             class="img-fluid" width="100"></td>
-                                    <td>Machas Box</td>
-                                    <td>$15.000</td>
-                                    <td>
-                                        <button class="btn btn-warning btn-sm">Editar</button>
-                                        <button class="btn btn-danger btn-sm">Eliminar</button>
-                                    </td>
-                                </tr>
-                                <!-- Producto 3 -->
-                                <tr>
-                                    <td><img src="../../Image/Principal/Porotos.jpg" alt="Porotos" class="img-fluid"
-                                             width="100"></td>
-                                    <td>Porotos Box</td>
-                                    <td>$8.000</td>
-                                    <td>
-                                        <button class="btn btn-warning btn-sm">Editar</button>
-                                        <button class="btn btn-danger btn-sm">Eliminar</button>
-                                    </td>
-                                </tr>
-                                <!-- Añadir más productos aquí -->
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+        </div>
+    </div>
+
+    <!-- Sección Editar Producto -->
+    <div id="editar" class="tab-content mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Lista de Productos</h2>
+                <!-- Tabla con Bootstrap -->
+                <div class="table-responsive">
+                    <table class="table table-bordered table-hover">
+                        <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Imagen</th>
+                            <th scope="col">Nombre del Producto</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Acciones</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <!-- Producto 1 -->
+                        <tr>
+                            <td><img src="../../Image/Postre/tiramisu1.jpg" alt="Tiramisu" class="img-fluid" width="100"></td>
+                            <td>Tiramisu Box</td>
+                            <td>$10.000</td>
+                            <td>
+                                <div class="btn-group">
+                                    <button class="btn btn-warning btn-sm">Editar</button>
+                                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Producto 2 -->
+                        <tr>
+                            <td><img src="../../Image/Entreadas/Machas-a-la-Parmesana.jpg" alt="Machas" class="img-fluid" width="100"></td>
+                            <td>Machas Box</td>
+                            <td>$15.000</td>
+                            <td>
+                                <div class="btn-group">
+                                    <button class="btn btn-warning btn-sm">Editar</button>
+                                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Producto 3 -->
+                        <tr>
+                            <td><img src="../../Image/Principal/Porotos.jpg" alt="Porotos" class="img-fluid" width="100"></td>
+                            <td>Porotos Box</td>
+                            <td>$8.000</td>
+                            <td>
+                                <div class="btn-group">
+                                    <button class="btn btn-warning btn-sm">Editar</button>
+                                    <button class="btn btn-danger btn-sm">Eliminar</button>
+                                </div>
+                            </td>
+                        </tr>
+                        <!-- Añadir más productos aquí -->
+                        </tbody>
+                    </table>
                 </div>
             </div>
-            <!-- Sección Agregar Producto -->
+        </div>
+    </div>
+
+    <!-- Sección Agregar Producto -->
             <div id="agregar" class="tab-content mt-4">
                 <div class="row">
                     <div class="col-md-4 mb-3">
